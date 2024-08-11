@@ -2,6 +2,7 @@
     --dark: rgb(0,0,0);
     --accent: #F13939;
     --light: #B5B0CA;
+    --light-rgb: rgb(181, 176, 202);
     --white: #FFFFFF;
     --castom: #DBF301;
     --tr: 0.2s;
@@ -17,6 +18,10 @@ a {
 main {
     background-color: var(--dark);
 }
+.dark > header {
+    border-bottom: 1px solid var(--light-rgb) ;
+
+}
 .Logo {
     color: var(--castom);
     font-size: 30px;
@@ -27,6 +32,14 @@ main {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    box-sizing: border-box;
+}
+.container._line {
+    border: 1px solid var(--light-rgb);
+}
+.page {
+    padding-top: 100px;
+    padding-bottom:  100px;
 }
 .dark {
     color: var(--white);
@@ -36,6 +49,7 @@ main {
     font-size: 72px;
     line-height: normal;
     letter-spacing: normal;
+    margin-bottom: 24px;
 
 
 }
@@ -48,6 +62,7 @@ main {
     font-size: 18px;
     line-height: 1.6;
     letter-spacing: normal;
+    margin-bottom: 60px;
 }
 .header {
     display: flex;
@@ -108,8 +123,32 @@ main {
     display: flex;
     align-items: center;
     justify-content:space-between ;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 .main_desc {
     max-width: 500px;
-
+}
+.main_btn {
+    justify-content: center;
+    max-width: 270px;
+    box-sizing: border-box;
+}
+.home {
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding: 100px 65px;
+}
+.home__title {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.home__desc {
+    margin-bottom: 64px;
+}
+.home__btn {
+    justify-content: center;
+    max-width: 314px;
+    box-sizing: border-box;
 }
