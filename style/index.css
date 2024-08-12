@@ -18,6 +18,9 @@ a {
 }
 main {
     background-color: var(--dark);
+    background-image: url(../images/fon_dark.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 footer {
     background-color: #473E4E;
@@ -37,6 +40,7 @@ footer {
     padding-right: 15px;
     margin: 0 auto;
     box-sizing: border-box;
+
 }
 .container._line {
     border: 1px solid var(--light-rgb);
@@ -272,6 +276,11 @@ footer {
     margin:  0 auto 60px;
 
 }
+.bonus {
+    background-image: url(../images/fon_dark.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .footer {
     height: 80px;
     display: flex;
@@ -283,3 +292,4 @@ footer {
 .footer a {
     color: antiquewhite;
 }
+
